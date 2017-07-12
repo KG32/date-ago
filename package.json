@@ -10,6 +10,10 @@
   },
   "author": "KG32",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/KG32/date-ago.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1"
