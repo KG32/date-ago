@@ -1,7 +1,7 @@
 [![NPM](https://nodei.co/npm/date-ago.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-ago/)
 
 
-#Installation
+# Installation
 ```
 $ npm install --save date-ago
 ```
