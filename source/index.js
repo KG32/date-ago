@@ -5,7 +5,6 @@ module.exports = function dateAgo(stamp) {
     let dateConvShort;
     let numDate = getNumDate(stamp);
 
-
     if(diff<3600000) { //1h
         if(diff<120000) {
             dateConv = 'a minute ago';
@@ -41,12 +40,8 @@ module.exports = function dateAgo(stamp) {
         dateConvShort = numDate;
     }
 
-
     return {full: dateConv, short: dateConvShort, num: numDate};
 };
-
-
-
 
 
 function getNumDate(stamp) {

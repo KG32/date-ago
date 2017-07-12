@@ -1,7 +1,14 @@
 [![NPM](https://nodei.co/npm/date-ago.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-ago/)
 
-# Usage
 
+#Installation
+```
+$ npm install --save date-ago
+```
+
+
+
+# Usage
 ```
 let ago = dateAgo(timestamp);
 
