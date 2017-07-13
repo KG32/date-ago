@@ -1,9 +1,9 @@
 module.exports = function dateAgo(stamp) {
-    let diff = new Date() - stamp;
+    const diff = new Date() - stamp;
     let calc;
     let dateConv;
     let dateConvShort;
-    let numDate = getNumDate(stamp);
+    const numDate = getNumDate(stamp);
 
     if(diff<3600000) { //1h
         if(diff<120000) {
@@ -26,7 +26,7 @@ module.exports = function dateAgo(stamp) {
         }
     }
     else if(diff<604800000) { //1w
-        let diffConv = Math.floor(diff/86400000);
+        const diffConv = Math.floor(diff/86400000);
         if(diffConv===1) {
             dateConv = 'yesterday';
             dateConvShort = '1d';
@@ -47,7 +47,7 @@ module.exports = function dateAgo(stamp) {
 function getNumDate(stamp) {
     let day = stamp.getDate();
     let month = stamp.getMonth()+1;
-    let year = stamp.getFullYear();
+    const year = stamp.getFullYear();
     if(day<10) {
         day='0'+day;
     }
