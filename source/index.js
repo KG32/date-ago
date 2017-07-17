@@ -6,7 +6,11 @@ module.exports = function dateAgo(stamp) {
     const numDate = getNumDate(stamp);
 
     if(diff<3600000) { //1h
-        if(diff<120000) {
+        if(diff<60000) {
+           dateConv = 'just now';
+           dateConvShort = 'now';
+        }
+        else if(diff<120000) {
             dateConv = 'a minute ago';
             dateConvShort = '1m';
         } else {
