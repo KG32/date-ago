@@ -15,7 +15,7 @@ module.exports = function dateAgo(stamp) {
             dateConvShort = '1m';
         } else {
             calc = Math.floor(diff/60000);
-            dateConv = calc+' min ago';
+            dateConv = calc+' minutes ago';
             dateConvShort = calc+'m';
         }
     }
