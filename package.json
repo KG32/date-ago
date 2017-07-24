@@ -1,7 +1,8 @@
 {
   "name": "date-ago",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple time formatting module.",
+  "keywords": ["date", "time", "ago", "timestamp"],
   "main": "./distribution/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
