@@ -1,6 +1,6 @@
 {
   "name": "date-ago",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A simple time formatting module.",
   "keywords": ["date", "time", "ago", "timestamp"],
   "main": "./distribution/index.js",
